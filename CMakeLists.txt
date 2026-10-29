@@ -19,5 +19,7 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/PlaygroundOptions.cmake)
 add_subdirectory(Containers)
 # we add the subdirectories for Core which is a library with its own CMakeLists.txt
 add_subdirectory(Core)
+# we add the subdirectories for Platform which is a library with its own CMakeLists.txt
+add_subdirectory(Platform)
 # we add the subdirectories for App, which is an executable with its own CMakeLists.txt
 add_subdirectory(App)
