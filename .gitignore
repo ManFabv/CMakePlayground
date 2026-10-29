@@ -1,0 +1,6 @@
+# every build folder: build, build-release, build/debug from presets...
+build*/
+# personal presets
+CMakeUserPresets.json
+# macOS
+.DS_Store
